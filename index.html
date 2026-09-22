@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Andrew Aseo | IT Student & Network Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-slate-900/90 backdrop-blur border-b border-slate-800 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider text-cyan-400">KIM ASEO</a>
+            <div class="space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-cyan-400 transition">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-16 px-4">
+        <div class="max-w-3xl text-center space-y-6">
+            <span class="text-cyan-400 font-mono text-sm tracking-widest uppercase">Hi, my name is</span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-white">Kim Andrew Aseo</h1>
+            <h2 class="text-2xl sm:text-3xl text-slate-400 font-medium">B.S. Information Technology Student</h2>
+            <p class="text-slate-400 text-lg max-w-2xl mx-auto leading-relaxed">
+                Specializing in <span class="text-slate-200">Computer Networking</span>, <span class="text-slate-200">Web Development</span>, and <span class="text-slate-200">Mobile GIS Mapping</span> at Eastern Samar State University.
+            </p>
+            <div class="pt-4 flex justify-center gap-4">
+                <a href="#projects" class="bg-cyan-500 hover:bg-cyan-600 text-slate-950 font-bold px-6 py-3 rounded-lg transition">View Work</a>
+                <a href="https://github.com/kimaseo123" target="_blank" class="border border-slate-700 hover:border-cyan-400 px-6 py-3 rounded-lg transition flex items-center gap-2">
+                    <i class="fab font-xl fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-slate-950 px-4">
+        <div class="max-w-4xl mx-auto space-y-8">
+            <h2 class="text-3xl font-bold text-white border-b border-slate-800 pb-2">About Me</h2>
+            <p class="text-slate-300 leading-relaxed text-lg">
+                I am a 3rd-year B.S. IT student affiliated with Eastern Samar State University (ESSU). My core technical focus lies in designing and troubleshooting network topologies, web applications, and field mapping operations using GIS applications.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-4">
+        <div class="max-w-4xl mx-auto space-y-8">
+            <h2 class="text-3xl font-bold text-white border-b border-slate-800 pb-2">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Networking -->
+                <div class="bg-slate-800/50 p-6 rounded-xl border border-slate-700/50">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fas fa-network-wired"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Networking</h3>
+                    <ul class="text-slate-300 space-y-2 text-sm">
+                        <li>Cisco Packet Tracer Topology</li>
+                        <li>IPv4 / IPv6 Subnetting & CIDR</li>
+                        <li>OSI & TCP/IP Stack</li>
+                        <li>NAT & MAC Address Tables</li>
+                    </ul>
+                </div>
+
+                <!-- Web Development -->
+                <div class="bg-slate-800/50 p-6 rounded-xl border border-slate-700/50">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fas fa-code"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Web Development</h3>
+                    <ul class="text-slate-300 space-y-2 text-sm">
+                        <li>HTML5 / CSS3 / Tailwind CSS</li>
+                        <li>JavaScript & React</li>
+                        <li>Supabase Backend Integration</li>
+                        <li>Responsive Mobile-First UI</li>
+                    </ul>
+                </div>
+
+                <!-- GIS & Audio Tools -->
+                <div class="bg-slate-800/50 p-6 rounded-xl border border-slate-700/50">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3 class="text-xl font-bold mb-3">GIS & Utilities</h3>
+                    <ul class="text-slate-300 space-y-2 text-sm">
+                        <li>QField & SW Maps Digitization</li>
+                        <li>Campus Polygon Mapping</li>
+                        <li>Git & Version Control</li>
+                        <li>Lossless Audio & Media Tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-950 px-4">
+        <div class="max-w-4xl mx-auto space-y-8">
+            <h2 class="text-3xl font-bold text-white border-b border-slate-800 pb-2">Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-3">
+                    <h3 class="text-xl font-bold text-cyan-400">ESSU Mobile Campus Map</h3>
+                    <p class="text-slate-400 text-sm">Digitized building polygons and applied satellite basemaps using QField and SW Maps for an academic spatial mapping assignment.</p>
+                    <div class="text-xs font-mono text-slate-500 pt-2">QField • SW Maps • GIS</div>
+                </div>
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-3">
+                    <h3 class="text-xl font-bold text-cyan-400">Automated Math Solver App</h3>
+                    <p class="text-slate-400 text-sm">Developed web app workflows utilizing Arena.ai, Bolt.new, and Supabase for auto-detecting mathematical solutions.</p>
+                    <div class="text-xs font-mono text-slate-500 pt-2">Bolt.new • Supabase • AI Workflows</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 text-center">
+        <div class="max-w-xl mx-auto space-y-6">
+            <h2 class="text-3xl font-bold text-white">Get In Touch</h2>
+            <p class="text-slate-400">Feel free to reach out for network engineering inquiries, collaborative development projects, or GIS assignments.</p>
+            <a href="https://github.com/kimaseo123" target="_blank" class="inline-block bg-cyan-500 hover:bg-cyan-600 text-slate-950 font-bold px-8 py-3 rounded-lg transition">Connect on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>© 2026 Kim Andrew Aseo. Built and deployed via Mobile Browser.</p>
+    </footer>
+
+</body>
+</html>
